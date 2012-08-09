@@ -1,28 +1,28 @@
 [alias]
-	am = commit --amend
-	amend = am
-	br = branch
-	branches = branch -a
-	ci = commit
-	co = checkout
-	ll = log --graph --abbrev-commit --max-count=15
-	r = checkout --
-	remotes = remote -v
-	st = status
+    am = commit --amend
+    amend = am
+    br = branch
+    branches = branch -a
+    ci = commit
+    co = checkout
+    ll = log --graph --abbrev-commit --max-count=15
+    r = checkout --
+    remotes = remote -v
+    st = status
 
 [color]
-	ui = auto
+    ui = auto
 
 [core]
-	editor = subl -w
-	excludesfile = ~/.gitignore
+    editor = subl -w
+    excludesfile = ~/.gitignore
 
 [format]
-	pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(blue)<%an>%Creset
+    pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(blue)<%an>%Creset
 
 [push]
-	default = tracking
+    default = tracking
 
 [user]
-	name = Brett Stimmerman
-	email = brettstimmerman@gmail.com
+    name = Brett Stimmerman
+    email = brettstimmerman@gmail.com
