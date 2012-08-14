@@ -1,6 +1,5 @@
 [alias]
-    am = commit --amend
-    amend = am
+    amend = commit --amend
     br = branch
     branches = branch -a
     ci = commit
