@@ -11,6 +11,7 @@
     r = checkout --
     remotes = remote -v
     st = status
+    tags = tag -l
 
 [color]
     ui = auto
