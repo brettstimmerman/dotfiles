@@ -7,6 +7,7 @@
     co = checkout
     l = for-each-ref --sort=-committerdate refs/heads --format='%(committerdate:short) %(refname:short)'
     ll = log --graph --abbrev-commit --max-count=15
+    master = checkout master
     r = checkout --
     remotes = remote -v
     st = status
