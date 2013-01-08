@@ -54,7 +54,7 @@ function parse_git_branch() {
         local DIRTY=$(parse_git_dirty)
 
         if [ -n "$DIRTY" ]; then
-            COLOR=$MAGENTA
+            COLOR=$RED
         fi
 
         echo -ne "$WHITE on $COLOR$BRANCH$DIRTY"
