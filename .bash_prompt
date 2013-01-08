@@ -70,5 +70,5 @@ case $TERM in
     ;;
 esac
 
-export PS1="$TITLEBAR\[$GREEN\]\w\$(parse_git_branch)\[$WHITE\] \$ \[$RESET\]"
-export PS2="\[$ORANGE\]→ \[$RESET\]"
+export PS1="$TITLEBAR\[$BOLD\]\[$GREEN\]\w\$(parse_git_branch)\[$WHITE\]\n\$\[$RESET\] "
+export PS2="\[$ORANGE\]→\[$RESET\] "
