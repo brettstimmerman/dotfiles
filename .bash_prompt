@@ -57,7 +57,7 @@ function parse_git_branch() {
             COLOR=$RED
         fi
 
-        echo -ne "$WHITE on $COLOR$BRANCH$DIRTY"
+        echo -ne "${WHITE} on ${COLOR}${BRANCH}${DIRTY}"
     fi
 }
 
