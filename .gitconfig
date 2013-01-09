@@ -7,7 +7,7 @@
     co = checkout
     diffc = diff --cached
     l = for-each-ref --sort=-committerdate refs/heads --format='%(committerdate:short) %(refname:short)'
-    ll = log --graph --abbrev-commit --max-count=15
+    ll = !git --no-pager log --graph --abbrev-commit --max-count=15
     master = checkout master
     r = checkout --
     remotes = remote -v
