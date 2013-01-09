@@ -7,7 +7,6 @@ if tput setaf 1 &> /dev/null; then
         GREEN=$(tput setaf 10)
         BLUE=$(tput setaf 27)
         CYAN=$(tput setaf 123)
-        PURPLE=$(tput setaf 129)
         WHITE=$(tput setaf 255)
     else
         RED=$(tput setaf 1)
@@ -47,7 +46,7 @@ function parse_git_dirty() {
 }
 
 function parse_git_branch() {
-    local COLOR=$PURPLE
+    local COLOR=$MAGENTA
     local BRANCH=$(git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* //')
 
     if [ $BRANCH ]; then
