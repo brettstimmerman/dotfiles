@@ -71,3 +71,7 @@ esac
 
 export PS1="$TITLEBAR\[$BOLD\]\[$GREEN\]\w\$(parse_git_branch)\[$WHITE\]\n\$\[$RESET\] "
 export PS2="\[$ORANGE\]→\[$RESET\] "
+
+# Share history between sessions.
+shopt -s histappend
+PROMPT_COMMAND="history -a; history -n; $PROMPT_COMMAND"
