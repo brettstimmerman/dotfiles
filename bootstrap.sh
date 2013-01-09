@@ -2,7 +2,7 @@
 cd "$(dirname "$0")"
 
 for file in .*; do
-    [ -f "$file" ] && [ -r "$file" ] && $(ln -s "$PWD/$file" "$HOME/$file")
+    [ -f "$file" ] && [ -r "$file" ] && $(ln -sf "$PWD/$file" "$HOME/$file")
 done
 unset file
 
