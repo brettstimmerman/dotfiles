@@ -9,4 +9,4 @@ unset file
 shopt -s histappend
 
 # Share history between sessions.
-PROMPT_COMMAND="history -a; history -n; $PROMPT_COMMAND"
+#PROMPT_COMMAND="history -a; history -n; $PROMPT_COMMAND"
