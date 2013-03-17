@@ -69,5 +69,11 @@ case $TERM in
     ;;
 esac
 
-export PS1="$TITLEBAR\[$BOLD\]\[$GREEN\]\w\$(parse_git_branch)\[$WHITE\]\n\$\[$RESET\] "
+function nave_version() {
+    if [ -n "$NAVE" ]; then
+        echo -ne " ${ORANGE}$NAVE"
+    fi
+}
+
+export PS1="$TITLEBAR\[$BOLD\]\[$GREEN\]\w\$(parse_git_branch)\$(nave_version)\[$WHITE\]\n\$\[$RESET\] "
 export PS2="\[$ORANGE\]→\[$RESET\] "
