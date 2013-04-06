@@ -1,4 +1,5 @@
 [alias]
+    addp = add -p
     alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\t=> \\2/' | sort
     amend = commit --amend
     br = branch
@@ -20,6 +21,7 @@
 [core]
     editor = subl -w
     excludesfile = ~/.gitignore
+    pager = less -r -x5,9
 
 [format]
     pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %C(cyan)(%cr)%Creset %C(blue)<%an>%Creset
