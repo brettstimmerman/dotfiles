@@ -11,5 +11,5 @@ alias ll="ls -a"
 # List only dotfiles.
 alias lh="ls -d .*"
 
-# Quick open current directory in Sublime Text.
-alias e="subl -n ."
+# Quick open current directory in VS Code.
+alias e="code ."
