@@ -21,3 +21,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# deno
+source /usr/local/etc/bash_completion.d/deno.bash
