@@ -24,3 +24,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # deno
 source /usr/local/etc/bash_completion.d/deno.bash
+
+# git
+source /usr/local/etc/bash_completion.d/git-completion.bash
