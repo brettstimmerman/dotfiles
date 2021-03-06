@@ -8,7 +8,7 @@ export GOPATH="$HOME/Development/go"
 export PATH="$GOPATH/bin:$PATH"
 
 # Make Sublime Text the default editor.
-export EDITOR="subl -w"
+export EDITOR="subl -n -w"
 
 # Don't clean the screen after quitting a man page.
 export MANPAGER="less -X"
