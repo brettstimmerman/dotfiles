@@ -6,7 +6,7 @@
     bra = branch -a
     ci = commit
     co = checkout
-    diffc = diff --cached
+    dc = diff --cached
     l = for-each-ref --sort=-committerdate refs/heads --format='%(committerdate:short) %(refname:short)'
     ll = !git --no-pager log --graph --abbrev-commit --max-count=15
     master = checkout master
