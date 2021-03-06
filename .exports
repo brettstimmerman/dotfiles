@@ -3,6 +3,10 @@ if [ -d "$HOME/.bin" ]; then
   export PATH="$HOME/.bin:$PATH"
 fi
 
+# Go
+export GOPATH="$HOME/Development/go"
+export PATH="$GOPATH/bin:$PATH"
+
 # Make Sublime Text the default editor.
 export EDITOR="subl -w"
 
