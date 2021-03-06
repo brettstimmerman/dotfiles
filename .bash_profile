@@ -8,5 +8,8 @@ unset file
 # Append to the history file instead of overwriting it.
 shopt -s histappend
 
+# Prevent Ctrl-D from exiting a terminal session
+shopt -s -o ignoreeof
+
 # Share history between sessions.
 #PROMPT_COMMAND="history -a; history -n; $PROMPT_COMMAND"
